@@ -4,6 +4,7 @@ import Button from '../components/Button';
 import Card from '../components/Card';
 import { Star, ArrowRight } from 'lucide-react';
 import heroImage from '../assets/hero.png';
+import LeadModal from '../components/LeadModal';
 
 const featuredDestinations = [
     {
@@ -38,6 +39,7 @@ const featuredDestinations = [
 const Home = () => {
     return (
         <div>
+            <LeadModal />
             {/* Hero Section */}
             <section style={{
                 position: 'relative',
